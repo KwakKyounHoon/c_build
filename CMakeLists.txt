@@ -1,3 +1,7 @@
 cmake_minimum_required(VERSION 2.8.12.2)
 project (hello)
+enable_testing()
 add_executable(hello helloworld.c)
+add_test(test1 main)
+add_test(test2 main)
+set_tests_properties(test2 PROPERTIES WILL_FAIL ON)
