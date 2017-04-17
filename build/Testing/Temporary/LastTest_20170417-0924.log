@@ -1,0 +1,19 @@
+Start testing: Apr 17 18:24 KST
+----------------------------------------------------------
+1/1 Testing: test1
+1/1 Test: test1
+Command: "/var/lib/jenkins/workspace/Test/build/hello"
+Directory: /var/lib/jenkins/workspace/Test/build
+"test1" start time: Apr 17 18:24 KST
+Output:
+----------------------------------------------------------
+Hello World
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test1" end time: Apr 17 18:24 KST
+"test1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 17 18:24 KST
