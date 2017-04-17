@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20170417-0834-Experimental"
+	Name="(empty)"
+	Generator="ctest-2.8.12.2"
+	CompilerName=""
+	OSName="Linux"
+	Hostname="tcudev"
+	OSRelease="3.16.0-30-generic"
+	OSVersion="#40~14.04.1-Ubuntu SMP Thu Jan 15 17:45:15 UTC 2015"
+	OSPlatform="i686"
+	Is64Bits="0"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="58"
+	ProcessorCacheSize="6144"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="16257"
+	TotalPhysicalMemory="16119"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="3198.98"
+>
+<Testing>
+	<StartDateTime>Apr 17 17:34 KST</StartDateTime>
+	<StartTestTime>1492418087</StartTestTime>
+	<TestList>
+		<Test>./test1</Test>
+	</TestList>
+	<Test Status="passed">
+		<Name>test1</Name>
+		<Path>.</Path>
+		<FullName>./test1</FullName>
+		<FullCommandLine>/var/lib/jenkins/workspace/Test/build/hello</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.000682947</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/var/lib/jenkins/workspace/Test/build/hello</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Hello World
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<EndDateTime>Apr 17 17:34 KST</EndDateTime>
+	<EndTestTime>1492418087</EndTestTime>
+<ElapsedMinutes>0</ElapsedMinutes></Testing>
+</Site>
