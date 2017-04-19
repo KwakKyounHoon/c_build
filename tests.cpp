@@ -3,7 +3,7 @@
 #include <gtest/gtest.h>
 
 TEST(SquareRootTest2, PositiveNos) { 
-    EXPECT_EQ(8, squareRoot(36.0));
+    EXPECT_EQ(6, squareRoot(36.0));
     EXPECT_EQ(18.0, squareRoot(324.0));
     EXPECT_EQ(25.4, squareRoot(645.16));
     EXPECT_EQ(0, squareRoot(0.0));
