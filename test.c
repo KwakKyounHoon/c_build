@@ -5,10 +5,10 @@ static void
 simple_test_case (void)
 {
 /* a suitable test */
-g_assert (ggob(2) == 5);
+g_assert (ggob(2) == 4);
 
 /* a test with verbose error message */
-g_assert_cmpint (ggob (2), ==, 5);
+g_assert_cmpint (ggob (2), ==, 4);
 }
 
 int
