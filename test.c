@@ -10,7 +10,7 @@ simple_test_case (void)
 // g_assert (sum (1000) == 233168);
 
 /* a test with verbose error message */
-g_assert_cmpint (sum (1000), ==, 233168);
+g_assert_cmpint (sum (1000), ==, 499500);
 }
 
 int
