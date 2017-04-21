@@ -1,3 +1,4 @@
+import life
 import unittest
 
 class SimpleTest(unittest.TestCase):
@@ -6,7 +7,7 @@ class SimpleTest(unittest.TestCase):
         self.fail("shouldn't happen")
 
     def test_pass(self):
-        self.assertEqual(10, 7 + 3)
+        self.assertEqual(10, life.add(5, 5))
 
     def test_fail(self):
-        self.assertEqual(11, 7 + 3)
+        self.assertEqual(11, life.add(5, 5))
