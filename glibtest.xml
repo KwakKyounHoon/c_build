@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<gtester>
+  <testbinary path="test">
+    <binary file="test"/>
+    <random-seed>R02Sb85c020df2c413772531822e51614126</random-seed>
+    <testcase path="/Simple Test Case">
+      <duration>0.000013</duration>
+      <status exit-status="0" n-forks="0" result="success"/>
+    </testcase>
+    <duration>0.000893</duration>
+  </testbinary>
+</gtester>
