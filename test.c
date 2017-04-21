@@ -1,13 +1,14 @@
 #include <glib.h>
+#include "whattotest2.c"
 
 static void
 simple_test_case (void)
 {
 /* a suitable test */
-g_assert (g_bit_storage (1) == 1);
+g_assert (ggob(2) == 5);
 
 /* a test with verbose error message */
-g_assert_cmpint (g_bit_storage (1), ==, 1);
+g_assert_cmpint (ggob (2), ==, 5);
 }
 
 int
