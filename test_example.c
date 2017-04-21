@@ -9,7 +9,7 @@ int sum(int number) {
     
     for (i = 1; i < number; i++) {
         sum += i;
-        for(int j = 0; j < 10000; j++){
+        for(j = 0; j < 1000000; j++){
         	c += j;
         }
     }
