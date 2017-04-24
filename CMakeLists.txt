@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.6)
 
 PROJECT(CTest)
-endable_testing()
+enable_testing()
  
 # Locate GTest
 find_package(GTest REQUIRED)
