@@ -12,3 +12,9 @@ add_executable(runTests test.cpp)
 add_executable(cTest test_1.c)
 add_test(cTest cTest)
 target_link_libraries(runTests ${GTEST_LIBRARIES} pthread)
+
+set(CMAKE_C_FLAGS "-fprofile-arcs -ftest-coverage")
+set(CMAKE_EXE_LINKER_FLAGS
+    "-fprofile-arcs -ftest-coverage")
+
+add_executable(coverage code_coverage.c)
